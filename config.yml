@@ -8,16 +8,16 @@
 ###############
 
 # mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
-# mail.host: 'localhost'
-# mail.port: 25
-# mail.username: ''
-# mail.password: ''
-# mail.use-tls: false
+mail.host: 'smtp.opengov.top'
+mail.port: 25
+mail.username: 'auto_sender@opengov.top'
+mail.password: 'Change@2020'
+mail.use-tls: false
 # The email address to send on behalf of
-# mail.from: 'root@localhost'
+mail.from: 'auto_sender@opengov.top'
 
 # If you'd like to configure email replies, enable this.
-# mail.enable-replies: false
+mail.enable-replies: false
 
 # When email-replies are enabled, this value is used in the Reply-To header
 # mail.reply-hostname: ''
